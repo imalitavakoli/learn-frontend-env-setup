@@ -69,7 +69,8 @@ Before using a CLI tool, **first you need to [download and install *node.js*](ht
 Here I mention some of the most useful CLI tools for web designing and frontend developing that I myself also love. To install them on your system, you need to run the commands that I mention for each one of them as I'm introducing them:
 
 
-- **[Yeoman](https://yeoman.io/)**: It's the **web's scaffolding tool for modern webapps**. It actually helps you kickstart a project fast and with the best practices, suggested by the community. When you kickstart a project with *Yeoman*, it configures everything needed, and downloads all of the dependencies! At the end, it provides you a ready-to-use scaffolding, so that you won't need to spend time to structure your project, you just focus on building.
+## [Yeoman](https://yeoman.io/)
+It's the **web's scaffolding tool for modern webapps**. It actually helps you kickstart a project fast and with the best practices, suggested by the community. When you kickstart a project with *Yeoman*, it configures everything needed, and downloads all of the dependencies! At the end, it provides you a ready-to-use scaffolding, so that you won't need to spend time to structure your project, you just focus on building.
 
  1. Run `npm install --global yo` to install *Yeoman* the very first time on your system.
 
@@ -80,7 +81,8 @@ Here I mention some of the most useful CLI tools for web designing and frontend 
  4. Run `yo webapp` when you are at the root of your project, to scaffold your webapp project. (By calling `yo` command followed by the already installed generator, that in our case it's `webapp`, you let *Yeoman* scaffold and make everything ready to kickstart your project)
 
 
-- **[Gulp](https://gulpjs.com/)**: It's a **JavaScript task runner** which helps you automate & enhance your workflow.
+## [Gulp](https://gulpjs.com/)
+It's a **JavaScript task runner** which helps you automate & enhance your workflow.
 
  1. Run `npm install -g gulp-cli` to install *Gulp CLI* the very first time on your system.
 
@@ -95,7 +97,8 @@ Here I mention some of the most useful CLI tools for web designing and frontend 
  - *Optional!* You can also manually modify your "*package.json*" file and mention the local dependencies that you like your project to have in it, save it, then run `npm install` to install all of the dependencies. (And of course just like how you installed *Gulp* itself and modified "*package.json*" file via a command run, you can install dependencies and modify "*package.json*" file all at once via a command run. e.g., `npm install gulp-uglify --save-dev` and `npm install gulp-concat --save-dev` commands, install the mentioned development dependencies for your project and modify the "*package.json*" file)
 
 
-- **[Sass](https://sass-lang.com/)**: It's **CSS with superpowers**. It helps you write CSS more efficiently by using variables, functions, and methods. [Click here](https://sass-lang.com/guide) to learn more about the Sass language.
+## [Sass](https://sass-lang.com/)
+It's **CSS with superpowers**. It helps you write CSS more efficiently by using variables, functions, and methods. [Click here](https://sass-lang.com/guide) to learn more about the Sass language.
 
  1. Run `npm install -g sass` to install *Sass* the very first time on your system.
 
@@ -108,7 +111,8 @@ Here I mention some of the most useful CLI tools for web designing and frontend 
  - *Optional!* By running `sass --watch <folder>:<folder>`, you let *Sass* watch all Sass files in a folder, and generate their identical CSS files in another folder.
 
 
-- **[Babel](https://babeljs.io/)**: It's a **JavaScript compiler**. It helps you write the next generation JavaScript, and convert it into older versions. e.g., you can write in ES6(ECMAScript 6) syntax and use *Babel* to compile it into ES5, so that older browsers can read your codes.
+## [Babel](https://babeljs.io/)
+It's a **JavaScript compiler**. It helps you write the next generation JavaScript, and convert it into older versions. e.g., you can write in ES6(ECMAScript 6) syntax and use *Babel* to compile it into ES5, so that older browsers can read your codes.
 
  1. Run `cd my/path/to/project` to change directory to the folder of your project.
 
