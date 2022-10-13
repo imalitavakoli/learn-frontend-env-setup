@@ -58,6 +58,8 @@ Well, to work faster and easier with *Visual Studio Code*, you can consider the 
 
 - I also personally love to see a **mini map** for my files. So make sure to check *Minimap* in *View*, then right click on the Minimap (when viewing a file) and check *Fill* in *Vertical size*, so that the Minimap can be identical to your large viewed file.
 
+- Emmet is built right into Visual Studio Code. Emmet is a toolkit which greatly improves HTML & CSS workflow. It lets you type CSS-like abbrivation, and expand it into HTML. e.g., type `h1+p*2+hr.classname+(blockquote>(section>p)+q+footer>a+cite)+hr.classname+ul>li*2>a.btn.color${btn $}` in your HTML and press *tab*, then you will see the magic happens! [Click here](https://code.visualstudio.com/docs/editor/emmet) to learn more about Emmet in Visual Studio Code.
+
 More? For sure Visual Studio Code is a powerful editor and has lots of features. [Click here](https://code.visualstudio.com/docs/getstarted/introvideos) to learn more about its interface, settings, and more.
 
 
