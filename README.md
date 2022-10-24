@@ -36,6 +36,8 @@ So when you install the *Visual Studio Code* editor on your system, simply open 
 
 - **[Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)**: This extension is developed by *Bartosz Antosik* and it is a multilingual, offline and lightweight spellchecker.
 
+- **[Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)**: This extension is developed by *Alessandro Fragnani* and it let's you mark lines and jump to them. (After installing the extension, then you can open the Command Palette and type "Bookmarks" to see all of the extension's shortcuts)
+
 - **[Atom One Light Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight)**: This extension is developed by *Mahmoud Ali* and enables the One Light Theme based on Atom. (I personally love this theme because I think it's clean and beautiful)
 
 - **[Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)**: This extension is developed by *Mahmoud Ali* and enables the One Dark Theme based on Atom. (I personally love this theme because I think it's clean and beautiful)
@@ -57,6 +59,8 @@ Well, to work faster and easier with *Visual Studio Code*, you can consider the 
 - To **replace a repetitive keyword all at once**, you can simply click on one of the keywords, and use the following shortcuts. *Windows: Ctrl+Shift+L*. *MacOS: Cmd+Shift+L*.
 
 - To simply **prettify a file on save**, you can go to *file > preferences > settings > search "format on save"* and check *Editor: Format On Save*.
+
+- To **render vertical rulers**, you can go to *file > preferences > settings > search "rulers"* and click *Edit in settings.json* under the *Editor: Rulers* title, and in the opened *.json* file edit *"editor.rulers"* property to render vertical rulers in Visual Studio Code and save it. e.g., `"editor.rulers": [80, 100]` or `"editor.rulers": [{ "column": 80, "color": "#e9a073" }]`. Vertical rulers are rendered after a certain number of monospace characters that you have defined. They can be helpful when you like to write comments in your codes, and would like to break lines and then continue writing for easier reading later.
 
 - I also personally love to see a **mini map** for my files. So make sure to check *Minimap* in *View*, then right click on the Minimap (when viewing a file) and check *Fill* in *Vertical size*, so that the Minimap can be identical to your large viewed file.
 
