@@ -28,7 +28,7 @@ So when you install the *Visual Studio Code* editor on your system, simply open 
 
 - **[Live Server (Five Server)](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server)**: This extension is developed by *Yannick* and it launches a development local Server with instant updates, highlights and PHP support.
 
-- **[file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)**: This extension is developed by *file-icons* and it shows File-specific icons in VSCode for improved visual grepping.
+- **[file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)**: This extension is developed by *file-icons* and it shows File-specific icons in VS Code for improved visual grepping.
 
 - **[HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)**: This extension is developed by *ecmel* and it enables CSS Intellisense for HTML.
 
@@ -37,6 +37,14 @@ So when you install the *Visual Studio Code* editor on your system, simply open 
 - **[Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright)**: This extension is developed by *Bartosz Antosik* and it is a multilingual, offline and lightweight spellchecker.
 
 - **[Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)**: This extension is developed by *Alessandro Fragnani* and it let's you mark lines and jump to them. (After installing the extension, then you can open the Command Palette and type "Bookmarks" to see all of the extension's shortcuts)
+
+- **[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)**: This extension is developed by *Christian Kohler* and it autocompletes filenames when you're trying to write a path to a file in your codes.
+
+- **[EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**: This extension is developed by *EditorConfig* and it adds EditorConfig support for VS Code. EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. (After installing the extension, while you have opened your project's folder in the editor, you can create a new `.editorconfig` file via the Explorer sidebar's context menu by right-clicking in the folder where you'd like it to be and selecting `Generate .editorconfig`.)
+
+- **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**: This extension is developed by *Microsoft* and it integrates ESLint JavaScript into VS Code.
+
+- **[Continue Inline Comments](https://marketplace.visualstudio.com/items?itemName=val.vscode-continue-inline-comments)**: This extension is developed by *Val* and it automatically continues inline comments in your codes, when you type a line that starts with `//` and then press `enter` to continue writing your comments in a new line.
 
 - **[Atom One Light Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight)**: This extension is developed by *Mahmoud Ali* and enables the One Light Theme based on Atom. (I personally love this theme because I think it's clean and beautiful)
 
@@ -59,6 +67,8 @@ Well, to work faster and easier with *Visual Studio Code*, you can consider the 
 - To **replace a repetitive keyword all at once**, you can simply click on one of the keywords, and use the following shortcuts. *Windows: Ctrl+Shift+L*. *MacOS: Cmd+Shift+L*.
 
 - To simply **prettify a file on save**, you can go to *file > preferences > settings > search "format on save"* and check *Editor: Format On Save*.
+
+- To **remove trailing spaces on save**, you can go to *file > preferences > settings > search "files trim"* and check *Files: Trim Trailing Whitespace*.
 
 - To **render vertical rulers**, you can go to *file > preferences > settings > search "rulers"* and click *Edit in settings.json* under the *Editor: Rulers* title, and in the opened *.json* file edit *"editor.rulers"* property to render vertical rulers in Visual Studio Code and save it. e.g., `"editor.rulers": [80, 100]` or `"editor.rulers": [{ "column": 80, "color": "#e9a073" }]`. Vertical rulers are rendered after a certain number of monospace characters that you have defined. They can be helpful when you like to write comments in your codes, and would like to break lines and then continue writing for easier reading later.
 
@@ -137,6 +147,22 @@ It's a **JavaScript compiler**. It helps you write the next generation JavaScrip
  - *Optional!* By using `--watch` option in your command (e.g., `npx babel src --watch --out-file script-compiled.js`), you let *Babel* watch for any JavaScript file changes. You can press *Ctrl+C* to stop watching.
 
  - *Optional!* If you have used ES6 module loader syntax in your codes and like to bundle them up all together when they are transformed from ES6 syntax to ES5, then you can use the *[Browserify](https://browserify.org/)* CLI tool. In order to do that run `npm install -g browserify` to install it the very first time on your system, then run `browserify lib/moduleLoader.js -o lib/bundle.js` to bundle up all of the modules imported in the "*moduleLoader.js*" file, all in the "*bundle.js*" file, and feed your HTML files with just the "*bundle.js*" file.
+
+
+## [Typescript](https://www.typescriptlang.org/)
+It's **JavaScript with syntax for types**. It helps you with finding bugs before running your code, auto code completion, and more cool stuff. [Click here](https://www.typescriptlang.org/docs/) to learn more about the Typescript language.
+
+ 1. Run `npm install -g typescript` to install *Typescript* the very first time on your system.
+
+ 2. Run `cd my/path/to/project` to change directory to the folder of your project.
+
+ 3. Run `tsc <name>.ts` to convert a *.ts* to a *.js* file. **NOTE:** Replace `<name>` with the name of your file.
+
+ - *Optional!* Run `tsc --init` to initialize a Typescript configuration file (`tsconfig.json`).
+
+ - *Optional!* Run `tsc` to convert all *.ts* files when `tsconfig.json` presents inside your project's root directory.
+
+ - *Tip!* Run `node <name>.js` to immediately run your generated `.js` file right in the CLI (e.g., to see your `console.log('sth');` result). **NOTE:** This is not a Typescript specific command!
 
 
 
