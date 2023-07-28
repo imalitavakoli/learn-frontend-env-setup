@@ -72,7 +72,7 @@ Well, to work faster and easier with *Visual Studio Code*, you can consider the 
 
 - To **render vertical rulers**, you can go to *file > preferences > settings > search "rulers"* and click *Edit in settings.json* under the *Editor: Rulers* title, and in the opened *.json* file edit *"editor.rulers"* property to render vertical rulers in Visual Studio Code and save it. e.g., `"editor.rulers": [80, 100]` or `"editor.rulers": [{ "column": 80, "color": "#e9a073" }]`. Vertical rulers are rendered after a certain number of monospace characters that you have defined. They can be helpful when you like to write comments in your codes, and would like to break lines and then continue writing for easier reading later.
 
-- I also personally love to see a **mini map** for my files. So make sure to check *Minimap* in *View*, then right click on the Minimap (when viewing a file) and check *Fill* in *Vertical size*, so that the Minimap can be identical to your large viewed file.
+- I also personally love to see a **mini map** for my files. So make sure to check *Minimap* in *View > Appearance*.
 
 - **Emmet** is built right into Visual Studio Code. Emmet is a toolkit which greatly improves HTML & CSS workflow. It lets you type CSS-like abbreviation, and expand it into HTML. e.g., type `h1+p*2+hr.classname+(blockquote>(section>p)+q+footer>a+cite)+hr.classname+ul>li*2>a.btn.color${btn $}` in your HTML and press *tab*, then you will see the magic happens! [Click here](https://code.visualstudio.com/docs/editor/emmet) to learn more about Emmet in Visual Studio Code.
 
@@ -124,9 +124,9 @@ It's **CSS with superpowers**. It helps you write CSS more efficiently by using 
 
  3. Run `sass <name>.scss <name>.css` to convert a *.scss* to a *.css* file. **NOTE:** Replace `<name>` with the name of your files.
 
- - *Optional!* By running `sass --watch <name>.scss <name>.css`, you let *Sass* watch a specific Sass file for any changes, so that when it is saved, it will generate a new CSS file accordingly. You can press *Ctrl+C* to stop watching.
+ - *Optional!* Run `sass --watch <name>.scss <name>.css`, to watch a *.scss* file for any changes, so that when it is saved, *Sass*  will generate a new CSS file accordingly. You can press *Ctrl+C* to stop watching.
 
- - *Optional!* By running `sass --watch <folder>:<folder>`, you let *Sass* watch all Sass files in a folder, and generate their identical CSS files in another folder.
+ - *Optional!* Run `sass --watch <folder>:<folder>`, to watch *.scss* files in a folder, and generate their identical CSS files in another folder.
 
 
 ## [Babel](https://babeljs.io/)
@@ -161,6 +161,8 @@ It's **JavaScript with syntax for types**. It helps you with finding bugs before
  - *Optional!* Run `tsc --init` to initialize a Typescript configuration file (`tsconfig.json`).
 
  - *Optional!* Run `tsc` to convert all *.ts* files when `tsconfig.json` presents inside your project's root directory.
+
+  - *Optional!* Run `tsc --watch`, to watch *.ts* files for any changes when `tsconfig.json` presents inside your project's root directory, so that when the files are saved, *Typescript* will generate new JavaScript files accordingly. You can press *Ctrl+C* to stop watching.
 
  - *Tip!* Run `node <name>.js` to immediately run your generated `.js` file right in the CLI (e.g., to see your `console.log('sth');` result). **NOTE:** This is not a Typescript specific command!
 
